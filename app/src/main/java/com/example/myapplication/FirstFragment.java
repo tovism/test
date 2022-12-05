@@ -65,6 +65,7 @@ public class FirstFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 mainViewModel.sendMassage("드디어 변경 됐다, 커밋 테스트 진행 중");
+                mainViewModel.sendMassage("테스트 branch 직성");
 
                 NavHostFragment.findNavController(FirstFragment.this)
                         .navigate(R.id.action_FirstFragment_to_SecondFragment);
