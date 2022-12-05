@@ -64,7 +64,7 @@ public class FirstFragment extends Fragment {
         binding.buttonFirst.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mainViewModel.sendMassage("드디어 변경 됐다");
+                mainViewModel.sendMassage("드디어 변경 됐다, 커밋 테스트 진행 중");
 
                 NavHostFragment.findNavController(FirstFragment.this)
                         .navigate(R.id.action_FirstFragment_to_SecondFragment);
